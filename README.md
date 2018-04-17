@@ -1,7 +1,7 @@
 ## What Is For Dinner
 Created by Y.S.L
 
-Website direct to @https://yanshuolee.github.io/what-is-for-dinner/main.html
+Website direct to https://yanshuolee.github.io/what-is-for-dinner/main.html
 
 ### Markdown
 
