@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+		<title>晚餐吃什麼?</title>
+        <script src="random_script.js"></script>
+    </head>
+    
+    <body>
+        <h1>晚餐吃什麼</h1>
+        <form>
+            <p>我昨天吃...
+                <select id="resturant">
+                    <option value="op_1">漁都</option>
+                    <option value="op_2">世代</option>
+                    <option value="op_3">重慶</option>
+                    <option value="op_4">燒肉飯</option>
+                    <option value="op_5">羹麵</option>
+                    <option value="op_6">找兩元</option>
+                    <option value="op_7">泰皇</option>
+                    <option value="op_8">八鍋</option>
+                </select>
+                <button type="button" onclick="getResturant()">確定</button>
+                <button type="button" onclick="getResturantByList()">舉列</button>
+            </p>
+        </form>
+
+        <p id="output"></p>
+    </body>
+</html>
